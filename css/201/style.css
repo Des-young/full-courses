@@ -19,11 +19,17 @@
 .min {
     min-width: 200px;
     border: 4px solid purple;
-    display: inline-block;
+    display: block;
     margin-top: 70px;
     max-width: 900px;
     position: relative;
     margin-bottom: 30px;
+    height: 400px;
+    /* text-overflow:clip;    */
+    overflow: scroll;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 60px auto;
     
 }
 
@@ -42,6 +48,7 @@ header {
     position: sticky;
     border: black 5px dotted;
     margin-bottom: 40px;
+    background-color: gold;
     
 }
 
